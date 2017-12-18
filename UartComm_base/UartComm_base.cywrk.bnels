@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CyXmlSerializer>
+<!--This file is machine generated and read. It is not intended to be edited by hand.-->
+<!--Due to this, there is no schema for this file.-->
+<CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21 type_name="CyDesigner.Common.ProjMgmt.Model.CyPrjMgmtWrkspcCustomData" version="4">
+<CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997 type_name="CyDesigner.Common.Base.CyCustomData" version="2">
+<userData>
+<dataGuid v="1b906a0f-a7b6-4e4d-a428-82f98b53cb35">
+<CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35 type_name="CyDesigner.Common.ProjMgmt.GUI.CyExplorerWindow+CyExplorerWindowState" version="3" SelectedTab="Source">
+<TreeKeys>
+<v>Source</v>
+<v>Components</v>
+<v>Output</v>
+</TreeKeys>
+<TreeStates>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>UartComm_base</v>
+<v>UartComm_base\UartComm_base</v>
+<v>UartComm_base\UartComm_base\TopDesign</v>
+<v>UartComm_base\UartComm_base\UartComm_base.cydwr</v>
+<v>UartComm_base\UartComm_base\UartComm_base.cydwr\Pins</v>
+<v>UartComm_base\UartComm_base\UartComm_base.cydwr\Analog</v>
+<v>UartComm_base\UartComm_base\UartComm_base.cydwr\DMA</v>
+<v>UartComm_base\UartComm_base\UartComm_base.cydwr\Clocks</v>
+<v>UartComm_base\UartComm_base\UartComm_base.cydwr\Interrupts</v>
+<v>UartComm_base\UartComm_base\UartComm_base.cydwr\System</v>
+<v>UartComm_base\UartComm_base\UartComm_base.cydwr\Directives</v>
+<v>UartComm_base\UartComm_base\UartComm_base.cydwr\Flash Security</v>
+<v>UartComm_base\UartComm_base\Header Files</v>
+<v>UartComm_base\UartComm_base\Header Files\cyapicallbacks.h</v>
+<v>UartComm_base\UartComm_base\Source Files</v>
+<v>UartComm_base\UartComm_base\Source Files\main.c</v>
+<v>UartComm_base\UartComm_base\SCB_UartComm.pdf</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>UartComm_base</v>
+<v>UartComm_base\UartComm_base</v>
+<v>UartComm_base\UartComm_base\TopDesign</v>
+<v>UartComm_base\UartComm_base\UartComm_base.cydwr</v>
+<v>UartComm_base\UartComm_base\UartComm_base.cydwr\Pins</v>
+<v>UartComm_base\UartComm_base\UartComm_base.cydwr\Analog</v>
+<v>UartComm_base\UartComm_base\UartComm_base.cydwr\DMA</v>
+<v>UartComm_base\UartComm_base\UartComm_base.cydwr\Clocks</v>
+<v>UartComm_base\UartComm_base\UartComm_base.cydwr\Interrupts</v>
+<v>UartComm_base\UartComm_base\UartComm_base.cydwr\System</v>
+<v>UartComm_base\UartComm_base\UartComm_base.cydwr\Directives</v>
+<v>UartComm_base\UartComm_base\UartComm_base.cydwr\Flash Security</v>
+<v>UartComm_base\UartComm_base\Header Files</v>
+<v>UartComm_base\UartComm_base\Header Files\cyapicallbacks.h</v>
+<v>UartComm_base\UartComm_base\Source Files</v>
+<v>UartComm_base\UartComm_base\Source Files\main.c</v>
+<v>UartComm_base\UartComm_base\SCB_UartComm.pdf</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>UartComm_base</v>
+<v>UartComm_base\UartComm_base</v>
+<v>UartComm_base\UartComm_base\TopDesign</v>
+<v>UartComm_base\UartComm_base\TopDesign\PSoC4</v>
+<v>UartComm_base\UartComm_base\TopDesign\PSoC4\PSoC 4000S</v>
+<v>UartComm_base\UartComm_base\TopDesign\PSoC4\PSoC 4000S\TopDesign.ctl</v>
+<v>UartComm_base\UartComm_base\TopDesign\PSoC4\PSoC 4100S</v>
+<v>UartComm_base\UartComm_base\TopDesign\PSoC4\PSoC 4100S\TopDesign.ctl</v>
+<v>UartComm_base\UartComm_base\TopDesign\PSoC4\PSoC 4200</v>
+<v>UartComm_base\UartComm_base\TopDesign\PSoC4\PSoC 4200\TopDesign.ctl</v>
+<v>UartComm_base\UartComm_base\TopDesign\PSoC4\PSoC 4200 BLE</v>
+<v>UartComm_base\UartComm_base\TopDesign\PSoC4\PSoC 4200 BLE\TopDesign.ctl</v>
+<v>UartComm_base\UartComm_base\TopDesign\PSoC4\PSoC 4200L</v>
+<v>UartComm_base\UartComm_base\TopDesign\PSoC4\PSoC 4200L\TopDesign.ctl</v>
+<v>UartComm_base\UartComm_base\TopDesign\PSoC4\PSoC 4200M</v>
+<v>UartComm_base\UartComm_base\TopDesign\PSoC4\PSoC 4200M\TopDesign.ctl</v>
+<v>UartComm_base\UartComm_base\TopDesign\PSoC4\PSoC Analog Coprocessor</v>
+<v>UartComm_base\UartComm_base\TopDesign\PSoC4\PSoC Analog Coprocessor\TopDesign.ctl</v>
+<v>UartComm_base\UartComm_base\TopDesign\TopDesign.cysch</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>UartComm_base</v>
+<v>UartComm_base\UartComm_base</v>
+<v>UartComm_base\UartComm_base\TopDesign</v>
+<v>UartComm_base\UartComm_base\TopDesign\PSoC4</v>
+<v>UartComm_base\UartComm_base\TopDesign\PSoC4\PSoC 4000S</v>
+<v>UartComm_base\UartComm_base\TopDesign\PSoC4\PSoC 4000S\TopDesign.ctl</v>
+<v>UartComm_base\UartComm_base\TopDesign\PSoC4\PSoC 4100S</v>
+<v>UartComm_base\UartComm_base\TopDesign\PSoC4\PSoC 4100S\TopDesign.ctl</v>
+<v>UartComm_base\UartComm_base\TopDesign\PSoC4\PSoC 4200</v>
+<v>UartComm_base\UartComm_base\TopDesign\PSoC4\PSoC 4200\TopDesign.ctl</v>
+<v>UartComm_base\UartComm_base\TopDesign\PSoC4\PSoC 4200 BLE</v>
+<v>UartComm_base\UartComm_base\TopDesign\PSoC4\PSoC 4200 BLE\TopDesign.ctl</v>
+<v>UartComm_base\UartComm_base\TopDesign\PSoC4\PSoC 4200L</v>
+<v>UartComm_base\UartComm_base\TopDesign\PSoC4\PSoC 4200L\TopDesign.ctl</v>
+<v>UartComm_base\UartComm_base\TopDesign\PSoC4\PSoC 4200M</v>
+<v>UartComm_base\UartComm_base\TopDesign\PSoC4\PSoC 4200M\TopDesign.ctl</v>
+<v>UartComm_base\UartComm_base\TopDesign\PSoC4\PSoC Analog Coprocessor</v>
+<v>UartComm_base\UartComm_base\TopDesign\PSoC4\PSoC Analog Coprocessor\TopDesign.ctl</v>
+<v>UartComm_base\UartComm_base\TopDesign\TopDesign.cysch</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>UartComm_base</v>
+<v>UartComm_base\UartComm_base</v>
+<v>UartComm_base\UartComm_base\UartComm_base.gpdsc</v>
+<v>UartComm_base\UartComm_base\UartComm_base.rpt</v>
+<v>UartComm_base\UartComm_base\UartComm_base_timing.html</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>UartComm_base</v>
+<v>UartComm_base\UartComm_base</v>
+<v>UartComm_base\UartComm_base\UartComm_base.gpdsc</v>
+<v>UartComm_base\UartComm_base\UartComm_base.rpt</v>
+<v>UartComm_base\UartComm_base\UartComm_base_timing.html</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStates>
+<TreeKeysV2>
+<v>Datasheet</v>
+</TreeKeysV2>
+<TreeStatesV2>
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<ExpandedNodeIds>
+<v>UartComm_base</v>
+<v>UartComm_base\UartComm_base</v>
+<v>UartComm_base\UartComm_base\PSoC 4 Architecture TRM</v>
+<v>UartComm_base\UartComm_base\PSoC 4200M Family Datasheet</v>
+<v>UartComm_base\UartComm_base\System Reference Guides</v>
+</ExpandedNodeIds>
+<VisibleNodeIds>
+<v>UartComm_base</v>
+<v>UartComm_base\UartComm_base</v>
+<v>UartComm_base\UartComm_base\PSoC 4 Architecture TRM</v>
+<v>UartComm_base\UartComm_base\PSoC 4200M Family Datasheet</v>
+<v>UartComm_base\UartComm_base\System Reference Guides</v>
+</VisibleNodeIds>
+</CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
+</TreeStatesV2>
+</CyGuid_1b906a0f-a7b6-4e4d-a428-82f98b53cb35>
+</dataGuid>
+</userData>
+</CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
+<Unloaded />
+<OpenDocs />
+<config v="" />
+<AutoUpdate v="true" />
+</CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
+</CyXmlSerializer>
