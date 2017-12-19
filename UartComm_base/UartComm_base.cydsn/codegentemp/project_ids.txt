@@ -1,0 +1,7 @@
+C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\UartComm_base.cyprj|be233cea-4ba9-419a-b87e-1d1d43fa7bac
+C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|d63984fe-8d58-4057-b116-310bcf76d599
+C:\Users\bnels\Documents\PSoC Creator\4.1\Downloads ( 4.1).cylib\Downloads ( 4.1).cyprj|64233912-afa6-408d-99e7-6ecefc7166f5
+C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|358275d1-b1bd-457c-a94c-7767c8660cf4
+C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|3f2c2d4a-8f3d-4b5c-84b1-b5dc58c2030d
+C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|e985c398-7337-4c6c-83d1-db00408780d8
+C:\Program Files (x86)\Cypress\PSoC Creator\4.1\PSoC Creator\psoc\content\default\CyReferenceLibrary\CyReferenceLibrary.cylib\CyReferenceLibrary.cyprj|6e82e7b9-0f52-40e4-9eba-a963c6f699c5

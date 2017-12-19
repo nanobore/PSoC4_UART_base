@@ -22,7 +22,7 @@
 *******************************************************************************/
 
 #include <project.h>
-
+#include "main.h"
 
 /*******************************************************************************
 * Function Name: main
@@ -42,8 +42,6 @@
 *******************************************************************************/
 int main()
 {
-    uint32 ch;
-
     /* Start SCB (UART mode) operation */
     UART_Start();
 
@@ -55,19 +53,46 @@ int main()
 
     for (;;)
     {
-        /* Get received character or zero if nothing has been received yet */
-        ch = UART_UartGetChar();
-
-        if (0u != ch)
-        {
-            /* Transmit the data through UART.
-            * This functions is blocking and waits until there is a place in
-            * the buffer.
-            */
-            UART_UartPutChar(ch);
-        }
+        UART_GetInput();
     }
 }
 
+/* Gets an input from a user over UART. Returns when a CR is received. */
+int UART_GetInput() {
+
+    uint32 ch;
+    uint8 done = 0u;
+    
+    char cmd[MAX_COMMAND_LENGTH];
+    
+    uint32 chReceived = 0;
+    
+    UART_UartPutString(": ");
+    
+    while (done != 1u || chReceived == MAX_COMMAND_LENGTH) 
+    {
+        ch = UART_UartGetChar();
+        
+        if (ch != 0u)
+        {
+            UART_UartPutChar(ch);
+            cmd[chReceived] = (char) ch;
+            chReceived++;
+            
+            if (ch == '\r') 
+            {
+                done = 1u;
+                cmd[chReceived] = '\0';
+            }
+        }
+    }
+    
+    UART_UartPutString("\nThanks!\n\r");
+    UART_UartPutString("Your command: ");
+    UART_UartPutString(cmd);
+    UART_UartPutString("\n\r");    
+
+    return 0;
+}
 
 /* [] END OF FILE */

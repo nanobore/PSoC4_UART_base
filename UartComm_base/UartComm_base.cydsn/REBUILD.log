@@ -1,0 +1,7 @@
+--------------- Rebuild Started: 12/19/2017 13:00:52 Project: main.c, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/main.lst -g -D DEBUG -Wall -ffunction-sections -ffat-lto-objects -O0 -c main.c -o .\CortexM0\ARM_GCC_541\Debug\main.o
+main.c: In function 'UART_GetInput':
+main.c:69:11: warning: unused variable 'command' [-Wunused-variable]
+     char *command = "test";
+           ^
+--------------- Rebuild Succeeded: 12/19/2017 13:00:53 ---------------
