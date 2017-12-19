@@ -21,8 +21,13 @@
 * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
 *******************************************************************************/
 
-#include <project.h>
 #include "main.h"
+#include <project.h>
+#include <string.h>
+#include <stdlib.h>
+
+uint8 LED_state = 0u;
+
 
 /*******************************************************************************
 * Function Name: main
@@ -42,13 +47,12 @@
 *******************************************************************************/
 int main()
 {
-    /* Start SCB (UART mode) operation */
-    UART_Start();
-
-    UART_UartPutString("\r\n***********************************************************************************\r\n");
-    UART_UartPutString("This is SCB_UartComm datasheet example project\r\n");
-    UART_UartPutString("If you are able to read this text the terminal connection is configured correctly.\r\n");
-    UART_UartPutString("Start transmitting the characters to see an echo in the terminal.\r\n");
+    setup();
+    
+    UART_UartPutString("\r\n");   
+    UART_UartPutString("************************************************\r\n");
+    UART_UartPutString("* Simple serial communication UART base system *\r\n");
+    UART_UartPutString("************************************************\r\n");
     UART_UartPutString("\r\n");
 
     for (;;)
@@ -57,42 +61,78 @@ int main()
     }
 }
 
+/* Setup */
+int setup()
+{
+    /* Start SCB (UART mode) operation */
+    UART_Start();
+    
+    return 0;
+}
+
 /* Gets an input from a user over UART. Returns when a CR is received. */
 int UART_GetInput() {
 
     uint32 ch;
     uint8 done = 0u;
+    uint8 args = 1;
     
     char cmd[MAX_COMMAND_LENGTH];
     
-    uint32 chReceived = 0;
+    uint32 ch_received = 0;
     
     UART_UartPutString(": ");
     
-    while (done != 1u || chReceived == MAX_COMMAND_LENGTH) 
+    while (done != 1u || ch_received == MAX_COMMAND_LENGTH) 
     {
         ch = UART_UartGetChar();
         
         if (ch != 0u)
         {
             UART_UartPutChar(ch);
-            cmd[chReceived] = (char) ch;
-            chReceived++;
+            
+            if (ch == ' ')
+                args++;
             
             if (ch == '\r') 
             {
                 done = 1u;
-                cmd[chReceived] = '\0';
+                cmd[ch_received] = '\0';
+            } else 
+            {
+                cmd[ch_received] = (char) ch;
             }
+            
+            ch_received++;
         }
     }
     
-    UART_UartPutString("\nThanks!\n\r");
+    UART_UartPutString("\r\nOK, thanks!\r\n");
     UART_UartPutString("Your command: ");
     UART_UartPutString(cmd);
-    UART_UartPutString("\n\r");    
+    UART_UartPutString("\r\n");
+    
+    parse_command(cmd, args);
 
     return 0;
 }
+
+/* Parse arguments. For now, only "LED on" and "LED off" are supported but eventually will 
+   include support for parsing multiple args for "set value" operations */
+int parse_command(char* cmd, uint8 args)
+{
+    if (strcmp(cmd, "LED on") == 0)
+    {
+        LED_ControlReg_Write(1u);
+    }
+    else if (strcmp(cmd, "LED off") == 0) 
+    {
+        LED_ControlReg_Write(0u);
+    }
+    else
+        UART_UartPutString("I don't understand that command!\r\n");      
+    return args;
+}
+
 
 /* [] END OF FILE */

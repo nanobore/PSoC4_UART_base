@@ -26,6 +26,13 @@
   <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\UART_SPI_UART_PVT.h" value="HEADER;;;;;UART" />
   <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\UART_PVT.h" value="HEADER;;;;;UART" />
   <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\UART_BOOT.h" value="HEADER;;;;;UART" />
+  <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\Pin_LED.c" value="SOURCE_C;CortexM0;;;;Pin_LED" />
+  <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\Pin_LED.h" value="HEADER;;;;;Pin_LED" />
+  <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\Pin_LED_aliases.h" value="HEADER;;;;;Pin_LED" />
+  <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\Pin_LED_PM.c" value="SOURCE_C;CortexM0;;;;Pin_LED" />
+  <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\LED_ControlReg.h" value="HEADER;;;;;LED_ControlReg" />
+  <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\LED_ControlReg.c" value="SOURCE_C;CortexM0;;;;LED_ControlReg" />
+  <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\LED_ControlReg_PM.c" value="SOURCE_C;CortexM0;;;;LED_ControlReg" />
   <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\UART_SCBCLK.c" value="SOURCE_C;CortexM0;;;;UART_SCBCLK" />
   <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\UART_SCBCLK.h" value="HEADER;;;;;UART_SCBCLK" />
   <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\UART_tx.c" value="SOURCE_C;CortexM0;;;;UART_tx" />

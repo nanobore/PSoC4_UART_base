@@ -34,6 +34,9 @@
 <v>UartComm_base\UartComm_base\Source Files\main.h</v>
 <v>UartComm_base\UartComm_base\Generated_Source</v>
 <v>UartComm_base\UartComm_base\Generated_Source\PSoC4</v>
+<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cy_boot</v>
+<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\LED_ControlReg</v>
+<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\UART</v>
 <v>UartComm_base\UartComm_base\SCB_UartComm.pdf</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
@@ -57,29 +60,33 @@
 <v>UartComm_base\UartComm_base\Generated_Source</v>
 <v>UartComm_base\UartComm_base\Generated_Source\PSoC4</v>
 <v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cy_boot</v>
+<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cy_boot\cm0gcc.ld</v>
+<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cy_boot\Cm0Iar.icf</v>
+<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cy_boot\Cm0RealView.scat</v>
+<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cy_boot\Cm0Start.c</v>
+<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cy_boot\cmsis_armcc.h</v>
+<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cy_boot\cmsis_compiler.h</v>
+<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cy_boot\cmsis_gcc.h</v>
+<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cy_boot\core_cm0.h</v>
+<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cy_boot\core_cm0_psoc4.h</v>
+<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cy_boot\core_cmFunc.h</v>
+<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cy_boot\core_cmInstr.h</v>
+<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cy_boot\CyBootAsmGnu.s</v>
+<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cy_boot\CyBootAsmIar.s</v>
+<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cy_boot\CyBootAsmRv.s</v>
+<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cy_boot\CyFlash.c</v>
+<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cy_boot\CyFlash.h</v>
+<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cy_boot\CyLib.c</v>
+<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cy_boot\CyLib.h</v>
+<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cy_boot\cypins.h</v>
+<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cy_boot\cyPm.c</v>
+<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cy_boot\cyPm.h</v>
+<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cy_boot\cytypes.h</v>
+<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cy_boot\cyutils.c</v>
 <v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cy_dmac</v>
 <v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cy_lfclk</v>
-<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\UART</v>
-<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\UART_rx</v>
-<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\UART_SCBCLK</v>
-<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\UART_tx</v>
-<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cycodeshareexport.ld</v>
-<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cycodeshareimport.ld</v>
-<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cycodeshareimport.scat</v>
-<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cydevice_trm.h</v>
-<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cydevicegnu_trm.inc</v>
-<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cydeviceiar_trm.inc</v>
-<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cydevicerv_trm.inc</v>
-<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cydisabledsheets.h</v>
-<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cyfitter.h</v>
-<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cyfitter_cfg.c</v>
-<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cyfitter_cfg.h</v>
-<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cyfittergnu.inc</v>
-<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cyfitteriar.inc</v>
-<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cyfitterrv.inc</v>
-<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cymetadata.c</v>
-<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\project.h</v>
-<v>UartComm_base\UartComm_base\SCB_UartComm.pdf</v>
+<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\LED_ControlReg</v>
+<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\LED_ControlReg\LED_ControlReg.c</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -144,7 +151,11 @@
 <v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
 <v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
 <v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_ControlReg.lst</v>
+<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_ControlReg_PM.lst</v>
 <v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_LED.lst</v>
+<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_LED_PM.lst</v>
 <v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\UART.lst</v>
 <v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_BOOT.lst</v>
 <v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_PM.lst</v>
@@ -167,37 +178,6 @@
 <VisibleNodeIds>
 <v>UartComm_base</v>
 <v>UartComm_base\UartComm_base</v>
-<v>UartComm_base\UartComm_base\CortexM0</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\CyDMA.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\UART.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_BOOT.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_PM.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_rx.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_rx_PM.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_SCBCLK.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_SPI_UART.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_SPI_UART_INT.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_tx.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_tx_PM.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_UART.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_UART_BOOT.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\UartComm_base.elf</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\UartComm_base.hex</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\UartComm_base.map</v>
-<v>UartComm_base\UartComm_base\UartComm_base.gpdsc</v>
 <v>UartComm_base\UartComm_base\UartComm_base.rpt</v>
 <v>UartComm_base\UartComm_base\UartComm_base_timing.html</v>
 </VisibleNodeIds>
@@ -217,6 +197,8 @@
 <v>UartComm_base\UartComm_base\System Reference Guides\cy_boot_v5_60</v>
 <v>UartComm_base\UartComm_base\System Reference Guides\cy_dmac_v1_10</v>
 <v>UartComm_base\UartComm_base\System Reference Guides\cy_lfclk_v1_20</v>
+<v>UartComm_base\UartComm_base\cy_pins_v2_20.pdf</v>
+<v>UartComm_base\UartComm_base\CyControlReg_v1_80.pdf</v>
 <v>UartComm_base\UartComm_base\SCB_P4_v3_20.pdf</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
@@ -228,6 +210,8 @@
 <v>UartComm_base\UartComm_base\System Reference Guides\cy_boot_v5_60</v>
 <v>UartComm_base\UartComm_base\System Reference Guides\cy_dmac_v1_10</v>
 <v>UartComm_base\UartComm_base\System Reference Guides\cy_lfclk_v1_20</v>
+<v>UartComm_base\UartComm_base\cy_pins_v2_20.pdf</v>
+<v>UartComm_base\UartComm_base\CyControlReg_v1_80.pdf</v>
 <v>UartComm_base\UartComm_base\SCB_P4_v3_20.pdf</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
@@ -237,7 +221,22 @@
 </userData>
 </CyGuid_fdba8dfd-b15b-4469-9bbb-9e40c3e70997>
 <Unloaded />
-<OpenDocs />
+<OpenDocs>
+<name v=".\UartComm_base.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\UartComm_base.cydsn\UartComm_base.cydwr" />
+<name v=".\UartComm_base.cydsn\main.c" />
+<name v=".\UartComm_base.cydsn\Generated_Source\PSoC4\project.h" />
+<name v=".\UartComm_base.cydsn\Generated_Source\PSoC4\CyLib.c" />
+<name v=".\UartComm_base.cydsn\Generated_Source\PSoC4\cyfitter.h" />
+<name v=".\UartComm_base.cydsn\main.h" />
+</OpenDocs>
+<OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
+
+  Actipro Docking/MDI for WinForms
+  Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
+  http://www.actiprosoftware.com
+
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="990, 681" SelectedTabbedMdiWindow="5f8b1774-30c9-4baf-b1b2-ca861f3b28df"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="0ee1c483-8d84-45eb-ba4b-b829326723a7" /><DocumentWindow Key="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\TopDesign\TopDesign.cysch" Guid="5f8b1774-30c9-4baf-b1b2-ca861f3b28df" /><DocumentWindow Key="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\UartComm_base.cydwr" Guid="7630bca9-183f-4bdb-8d7a-ba86d1a42b1a" /><DocumentWindow Key="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\main.c" Guid="bf84552c-ac6a-4774-9d11-ac1dff5b6f4a" /><DocumentWindow Key="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\Generated_Source\PSoC4\project.h" Guid="8e061490-8a6c-425e-9947-d1e52e3eede6" /><DocumentWindow Key="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\Generated_Source\PSoC4\CyLib.c" Guid="39597d47-f318-4c31-880c-5bc53b3f986a" /><DocumentWindow Key="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\Generated_Source\PSoC4\cyfitter.h" Guid="29903c25-088a-4c20-8650-e5e45d055e56" /><DocumentWindow Key="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\main.h" Guid="cf55ee2e-1d87-468f-a658-358aa0c86b60" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>

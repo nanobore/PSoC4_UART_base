@@ -149,6 +149,47 @@ static void CyClockStartupError(uint8 errorCode)
 }
 #endif
 
+#define CY_CFG_BASE_ADDR_COUNT 3u
+CYPACKED typedef struct
+{
+	uint8 offset;
+	uint8 value;
+} CYPACKED_ATTR cy_cfg_addrvalue_t;
+
+
+
+/*******************************************************************************
+* Function Name: cfg_write_bytes32
+********************************************************************************
+* Summary:
+*  This function is used for setting up the chip configuration areas that
+*  contain relatively sparse data.
+*
+* Parameters:
+*   void
+*
+* Return:
+*   void
+*
+*******************************************************************************/
+static void cfg_write_bytes32(const uint32 addr_table[], const cy_cfg_addrvalue_t data_table[]);
+static void cfg_write_bytes32(const uint32 addr_table[], const cy_cfg_addrvalue_t data_table[])
+{
+	/* For 32-bit little-endian architectures */
+	uint32 i, j = 0u;
+	for (i = 0u; i < CY_CFG_BASE_ADDR_COUNT; i++)
+	{
+		uint32 baseAddr = addr_table[i];
+		uint8 count = (uint8)baseAddr;
+		baseAddr &= 0xFFFFFF00u;
+		while (count != 0u)
+		{
+			CY_SET_REG8((void *)(baseAddr + data_table[j].offset), data_table[j].value);
+			j++;
+			count--;
+		}
+	}
+}
 
 
 /*******************************************************************************
@@ -251,6 +292,24 @@ void cyfitter_cfg(void)
 	CyGlobalIntDisable;
 
 	{
+		static const uint32 CYCODE cy_cfg_addr_table[] = {
+			0x400F3202u, /* Base address: 0x400F3200 Count: 2 */
+			0x400F3302u, /* Base address: 0x400F3300 Count: 2 */
+			0x400F4104u, /* Base address: 0x400F4100 Count: 4 */
+		};
+
+		static const cy_cfg_addrvalue_t CYCODE cy_cfg_data_table[] = {
+			{0x5Bu, 0x04u},
+			{0x5Fu, 0x01u},
+			{0x6Fu, 0x01u},
+			{0x87u, 0x01u},
+			{0x67u, 0x04u},
+			{0x87u, 0x04u},
+			{0xD8u, 0x80u},
+			{0xE2u, 0x40u},
+		};
+
+
 
 		CYPACKED typedef struct {
 			void CYFAR *address;
@@ -272,18 +331,30 @@ void cyfitter_cfg(void)
 			CYMEMZERO(ms->address, (size_t)(uint32)(ms->size));
 		}
 
+		cfg_write_bytes32(cy_cfg_addr_table, cy_cfg_data_table);
+
 		/* HSIOM Starting address: CYDEV_HSIOM_BASE */
+		CY_SET_REG32((void *)(CYREG_HSIOM_PORT_SEL1), 0x03000000u);
 		CY_SET_REG32((void *)(CYREG_HSIOM_PORT_SEL3), 0x0000EE00u);
 		CY_SET_REG32((void *)(CYREG_HSIOM_PORT_SEL7), 0x00000099u);
+
+		/* UDB_PA_1 Starting address: CYDEV_UDB_PA1_BASE */
+		CY_SET_REG32((void *)(CYDEV_UDB_PA1_BASE), 0x00990000u);
+		CY_SET_REG32((void *)(CYREG_UDB_PA1_CFG8), 0x30000000u);
 
 		/* UDB_PA_3 Starting address: CYDEV_UDB_PA3_BASE */
 		CY_SET_REG32((void *)(CYDEV_UDB_PA3_BASE), 0x00990000u);
 
-		/* Enable digital routing */
-		CY_SET_XTND_REG8((void *)CYREG_UDB_UDBIF_BANK_CTL, (uint8)(CY_GET_XTND_REG8((void *)CYREG_UDB_UDBIF_BANK_CTL) | 0x06u));
+		/* Enable UDB array and digital routing */
+		CY_SET_XTND_REG8((void *)CYREG_UDB_UDBIF_WAIT_CFG, (uint8)((CY_GET_XTND_REG8((void *)CYREG_UDB_UDBIF_WAIT_CFG) & 0xC3u) | 0x14u));
+		CY_SET_XTND_REG8((void *)CYREG_UDB_UDBIF_BANK_CTL, (uint8)(CY_GET_XTND_REG8((void *)CYREG_UDB_UDBIF_BANK_CTL) | 0x16u));
 	}
 
 	/* Perform second pass device configuration. These items must be configured in specific order after the regular configuration is done. */
+	/* IOPINS0_1 Starting address: CYDEV_GPIO_PRT1_BASE */
+	CY_SET_REG32((void *)(CYDEV_GPIO_PRT1_BASE), 0x00000040u);
+	CY_SET_REG32((void *)(CYREG_GPIO_PRT1_PC), 0x00180000u);
+
 	/* IOPINS0_3 Starting address: CYDEV_GPIO_PRT3_BASE */
 	CY_SET_REG32((void *)(CYREG_GPIO_PRT3_PC), 0x00000D80u);
 

@@ -7968,5 +7968,26 @@
         </register>
       </registers>
     </peripheral>
+    <peripheral>
+      <name>LED_ControlReg</name>
+      <description>No description available</description>
+      <baseAddress>0x400F0072</baseAddress>
+      <addressBlock>
+        <offset>0</offset>
+        <size>0x0</size>
+        <usage>registers</usage>
+      </addressBlock>
+      <registers>
+        <register>
+          <name>LED_ControlReg_CONTROL_REG</name>
+          <description>No description available</description>
+          <addressOffset>0x0</addressOffset>
+          <size>8</size>
+          <access>read-write</access>
+          <resetValue>0</resetValue>
+          <resetMask>0</resetMask>
+        </register>
+      </registers>
+    </peripheral>
   </peripherals>
 </device>
