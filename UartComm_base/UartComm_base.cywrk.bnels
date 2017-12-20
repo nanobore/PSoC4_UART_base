@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="UartComm_base\UartComm_base\Source Files\serial.c">
 <ExpandedNodeIds>
 <v>UartComm_base</v>
 <v>UartComm_base\UartComm_base</v>
@@ -29,14 +29,13 @@
 <v>UartComm_base\UartComm_base\UartComm_base.cydwr\Flash Security</v>
 <v>UartComm_base\UartComm_base\Header Files</v>
 <v>UartComm_base\UartComm_base\Header Files\cyapicallbacks.h</v>
+<v>UartComm_base\UartComm_base\Header Files\main.h</v>
+<v>UartComm_base\UartComm_base\Header Files\serial.h</v>
 <v>UartComm_base\UartComm_base\Source Files</v>
 <v>UartComm_base\UartComm_base\Source Files\main.c</v>
-<v>UartComm_base\UartComm_base\Source Files\main.h</v>
+<v>UartComm_base\UartComm_base\Source Files\serial.c</v>
 <v>UartComm_base\UartComm_base\Generated_Source</v>
 <v>UartComm_base\UartComm_base\Generated_Source\PSoC4</v>
-<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\ADC</v>
-<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\LED_ControlReg</v>
-<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\UART</v>
 <v>UartComm_base\UartComm_base\SCB_UartComm.pdf</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
@@ -54,16 +53,14 @@
 <v>UartComm_base\UartComm_base\UartComm_base.cydwr\Flash Security</v>
 <v>UartComm_base\UartComm_base\Header Files</v>
 <v>UartComm_base\UartComm_base\Header Files\cyapicallbacks.h</v>
+<v>UartComm_base\UartComm_base\Header Files\main.h</v>
+<v>UartComm_base\UartComm_base\Header Files\serial.h</v>
 <v>UartComm_base\UartComm_base\Source Files</v>
 <v>UartComm_base\UartComm_base\Source Files\main.c</v>
-<v>UartComm_base\UartComm_base\Source Files\main.h</v>
+<v>UartComm_base\UartComm_base\Source Files\serial.c</v>
 <v>UartComm_base\UartComm_base\Generated_Source</v>
 <v>UartComm_base\UartComm_base\Generated_Source\PSoC4</v>
 <v>UartComm_base\UartComm_base\Generated_Source\PSoC4\ADC</v>
-<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\ADC\ADC.c</v>
-<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\ADC\ADC.h</v>
-<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\ADC\ADC_INT.c</v>
-<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\ADC\ADC_PM.c</v>
 <v>UartComm_base\UartComm_base\Generated_Source\PSoC4\ADC_intClock</v>
 <v>UartComm_base\UartComm_base\Generated_Source\PSoC4\ADC_IRQ</v>
 <v>UartComm_base\UartComm_base\Generated_Source\PSoC4\ADC_minus</v>
@@ -72,21 +69,23 @@
 <v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cy_dmac</v>
 <v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cy_lfclk</v>
 <v>UartComm_base\UartComm_base\Generated_Source\PSoC4\LED_ControlReg</v>
-<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\LED_ControlReg\LED_ControlReg.c</v>
-<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\LED_ControlReg\LED_ControlReg.h</v>
-<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\LED_ControlReg\LED_ControlReg_PM.c</v>
 <v>UartComm_base\UartComm_base\Generated_Source\PSoC4\Pin_ADC_Test</v>
 <v>UartComm_base\UartComm_base\Generated_Source\PSoC4\Pin_LED</v>
 <v>UartComm_base\UartComm_base\Generated_Source\PSoC4\TestControlReg</v>
 <v>UartComm_base\UartComm_base\Generated_Source\PSoC4\UART</v>
-<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\UART\UART.c</v>
-<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\UART\UART.h</v>
-<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\UART\UART_BOOT.c</v>
-<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\UART\UART_BOOT.h</v>
-<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\UART\UART_PINS.h</v>
-<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\UART\UART_PM.c</v>
-<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\UART\UART_PVT.h</v>
-<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\UART\UART_SPI_UART.c</v>
+<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\UART_rx</v>
+<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\UART_SCBCLK</v>
+<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\UART_tx</v>
+<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cycodeshareexport.ld</v>
+<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cycodeshareimport.ld</v>
+<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cycodeshareimport.scat</v>
+<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cydevice_trm.h</v>
+<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cydevicegnu_trm.inc</v>
+<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cydeviceiar_trm.inc</v>
+<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cydevicerv_trm.inc</v>
+<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cydisabledsheets.h</v>
+<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cyfitter.h</v>
+<v>UartComm_base\UartComm_base\Generated_Source\PSoC4\cyfitter_cfg.c</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 <CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
@@ -167,6 +166,7 @@
 <v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_ADC_Test_PM.lst</v>
 <v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_LED.lst</v>
 <v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_LED_PM.lst</v>
+<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\serial.lst</v>
 <v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\TestControlReg.lst</v>
 <v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\TestControlReg_PM.lst</v>
 <v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\UART.lst</v>
@@ -191,51 +191,6 @@
 <VisibleNodeIds>
 <v>UartComm_base</v>
 <v>UartComm_base\UartComm_base</v>
-<v>UartComm_base\UartComm_base\CortexM0</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\ADC.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\ADC_INT.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\ADC_intClock.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\ADC_IRQ.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\ADC_minus.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\ADC_minus_PM.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\ADC_plus.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\ADC_plus_PM.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\ADC_PM.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\Cm0Start.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\CyDMA.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLFClk.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_ControlReg.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_ControlReg_PM.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_ADC_Test.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_ADC_Test_PM.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_LED.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_LED_PM.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\TestControlReg.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\TestControlReg_PM.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\UART.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_BOOT.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_PM.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_rx.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_rx_PM.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_SCBCLK.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_SPI_UART.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_SPI_UART_INT.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_tx.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_tx_PM.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_UART.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\Listing Files\UART_UART_BOOT.lst</v>
-<v>UartComm_base\UartComm_base\CortexM0\ARM_GCC_541\Debug\UartComm_base.elf</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
