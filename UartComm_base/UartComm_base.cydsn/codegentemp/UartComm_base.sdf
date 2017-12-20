@@ -1,6 +1,6 @@
 (DELAYFILE
  (SDFVERSION "IEEE 1497 4.0")
- (DATE "2017-12-19T21:51:36Z")
+ (DATE "2017-12-20T00:26:44Z")
  (DESIGN "UartComm_base")
  (VENDOR "Cypress Semiconductor")
  (PROGRAM "PSoC Creator")
@@ -13,8 +13,14 @@
   (DELAY
    (ABSOLUTE
     (INTERCONNECT ClockBlock.hfclk \\LED_ControlReg\:Sync\:ctrl_reg\\.busclk (0.000:0.000:0.000))
+    (INTERCONNECT ClockBlock.hfclk \\ADC\:IRQ\\.clock (0.000:0.000:0.000))
+    (INTERCONNECT ClockBlock.hfclk \\TestControlReg\:Sync\:ctrl_reg\\.busclk (0.000:0.000:0.000))
     (INTERCONNECT \\LED_ControlReg\:Sync\:ctrl_reg\\.control_0 Pin_LED\(0\).pin_input (5.282:5.282:5.282))
+    (INTERCONNECT \\TestControlReg\:Sync\:ctrl_reg\\.control_0 Pin_ADC_Test\(0\).pin_input (5.674:5.674:5.674))
+    (INTERCONNECT Pin_ADC_Test\(0\).pad_out Pin_ADC_Test\(0\).pad_in (0.000:0.000:0.000))
     (INTERCONNECT Pin_LED\(0\).pad_out Pin_LED\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT ClockBlock.ff_div_10 \\ADC\:cy_psoc4_sar\\.clock (0.000:0.000:0.000))
+    (INTERCONNECT \\ADC\:cy_psoc4_sar\\.irq \\ADC\:IRQ\\.interrupt (1.000:1.000:1.000))
     (INTERCONNECT ClockBlock.ff_div_5 \\UART\:SCB\\.clock (0.000:0.000:0.000))
     (INTERCONNECT \\UART\:rx\(0\)\\.fb \\UART\:SCB\\.uart_rx (0.000:0.000:0.000))
     (INTERCONNECT \\UART\:tx\(0\)\\.pad_out \\UART\:tx\(0\)\\.pad_in (0.000:0.000:0.000))
@@ -24,6 +30,8 @@
     (INTERCONNECT \\UART\:rx\(0\)_PAD\\ \\UART\:rx\(0\)\\.pad_in (0.000:0.000:0.000))
     (INTERCONNECT Pin_LED\(0\).pad_out Pin_LED\(0\)_PAD (0.000:0.000:0.000))
     (INTERCONNECT Pin_LED\(0\)_PAD Pin_LED\(0\).pad_in (0.000:0.000:0.000))
+    (INTERCONNECT Pin_ADC_Test\(0\).pad_out Pin_ADC_Test\(0\)_PAD (0.000:0.000:0.000))
+    (INTERCONNECT Pin_ADC_Test\(0\)_PAD Pin_ADC_Test\(0\).pad_in (0.000:0.000:0.000))
    )
   )
  )

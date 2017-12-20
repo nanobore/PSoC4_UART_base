@@ -2,6 +2,10 @@ net ClockBlock_HFCLK
 	term   ":m0s8clockblockcell.hfclk"
 	switch ":m0s8clockblockcell.hfclk==>:udb@[UDB=(1,0)]:controlcell.busclk"
 	term   ":udb@[UDB=(1,0)]:controlcell.busclk"
+	switch ":m0s8clockblockcell.hfclk==>:interrupt_16.clock"
+	term   ":interrupt_16.clock"
+	switch ":m0s8clockblockcell.hfclk==>:udb@[UDB=(0,0)]:controlcell.busclk"
+	term   ":udb@[UDB=(0,0)]:controlcell.busclk"
 end ClockBlock_HFCLK
 net Net_104
 	term   ":udb@[UDB=(1,0)]:controlcell.control_0"
@@ -19,6 +23,29 @@ net Net_104
 	switch ":ioport1:hsiom_out6.hsiom6_out==>:ioport1:pin6.pin_input"
 	term   ":ioport1:pin6.pin_input"
 end Net_104
+net Net_149
+	term   ":udb@[UDB=(0,0)]:controlcell.control_0"
+	switch ":udb@[UDB=(0,0)]:controlcell.control_0==>:udb@[UDB=(0,0)]:controlcell_control_0_permute.in_0"
+	switch ":udb@[UDB=(0,0)]:controlcell_control_0_permute.controlcell_control_0==>Stub-:udbswitch@[UDB=(0,0)][side=top]:v104"
+	switch "OStub-:udbswitch@[UDB=(0,0)][side=top]:v104"
+	switch ":udbswitch@[UDB=(0,0)][side=top]:104,45"
+	switch ":hvswitch@[UDB=(1,0)][side=left]:15,45_f"
+	switch ":hvswitch@[UDB=(0,0)][side=left]:vseg_15_bot_f"
+	switch ":hvswitch@[UDB=(0,0)][side=left]:15,21_b"
+	switch ":hvswitch@[UDB=(0,0)][side=left]:hseg_21_f"
+	switch ":dsiswitch_top@[DSI=(0,1)][side=top]:dsihc_top:80,21_f"
+	switch "IStub-:dsiswitch_top@[DSI=(0,1)][side=top]:dsihc_top:v80+:dsiswitch_top@[DSI=(0,1)][side=top]:dsihc_top:v82+:dsiswitch_top@[DSI=(0,1)][side=top]:dsihc_top:v84"
+	switch "Stub-:dsiswitch_top@[DSI=(0,1)][side=top]:dsihc_top:v80+:dsiswitch_top@[DSI=(0,1)][side=top]:dsihc_top:v82+:dsiswitch_top@[DSI=(0,1)][side=top]:dsihc_top:v84==>:ioport2:inputs1_mux.in_0"
+	switch ":ioport2:inputs1_mux.pin3__pin_input==>:ioport2:hsiom_out3.dsi"
+	switch ":ioport2:hsiom_out3.hsiom3_out==>:ioport2:pin3.pin_input"
+	term   ":ioport2:pin3.pin_input"
+end Net_149
+net \ADC:Net_3112\
+	term   ":p4sarcell.irq"
+	switch ":p4sarcell.irq==>:interrupt_idmux_16.in_0"
+	switch ":interrupt_idmux_16.interrupt_idmux_16__out==>:interrupt_16.interrupt"
+	term   ":interrupt_16.interrupt"
+end \ADC:Net_3112\
 net \UART:rx_wire\
 	term   ":ioport7:pin0.fb"
 	switch ":ioport7:pin0.fb==>:ioport7:hsiom_in0.hsiom0_in"

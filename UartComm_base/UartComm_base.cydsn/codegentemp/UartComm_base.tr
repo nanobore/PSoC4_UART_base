@@ -16,7 +16,9 @@
 ##################################################################### 
                     1::Clock Frequency Summary
 ===================================================================== 
-Number of clocks: 9
+Number of clocks: 11
+Clock: ADC_intClock         | N/A  | Target: 2.67 MHz    | 
+Clock: ADC_intClock(FFB)    | N/A  | Target: 2.67 MHz    | 
 Clock: ClockBlock/ff_div_5  | N/A  | Target: 100.00 MHz  | 
 Clock: CyHFCLK              | N/A  | Target: 24.00 MHz   | 
 Clock: CyILO                | N/A  | Target: 0.03 MHz    | 
@@ -59,9 +61,10 @@ Port Name  Setup to Clk  Clock Name:Phase
 -----------------------3.2::Clock to Out
 ----------------------------------------
 
-Port Name       Clock to Out  Clock Name:Phase  
---------------  ------------  ----------------  
-Pin_LED(0)_PAD  23655         CyHFCLK:R         
+Port Name            Clock to Out  Clock Name:Phase  
+-------------------  ------------  ----------------  
+Pin_ADC_Test(0)_PAD  27408         CyHFCLK:R         
+Pin_LED(0)_PAD       23655         CyHFCLK:R         
 
 
                          3.3::Pad to Pad

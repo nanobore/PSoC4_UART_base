@@ -33,6 +33,25 @@
   <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\LED_ControlReg.h" value="HEADER;;;;;LED_ControlReg" />
   <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\LED_ControlReg.c" value="SOURCE_C;CortexM0;;;;LED_ControlReg" />
   <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\LED_ControlReg_PM.c" value="SOURCE_C;CortexM0;;;;LED_ControlReg" />
+  <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\ADC.c" value="SOURCE_C;CortexM0;;;;ADC" />
+  <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\ADC.h" value="HEADER;;;;;ADC" />
+  <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\ADC_PM.c" value="SOURCE_C;CortexM0;;;;ADC" />
+  <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\ADC_INT.c" value="SOURCE_C;CortexM0;;;;ADC" />
+  <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\ADC_plus.c" value="SOURCE_C;CortexM0;;;;ADC_plus" />
+  <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\ADC_plus.h" value="HEADER;;;;;ADC_plus" />
+  <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\ADC_plus_aliases.h" value="HEADER;;;;;ADC_plus" />
+  <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\ADC_plus_PM.c" value="SOURCE_C;CortexM0;;;;ADC_plus" />
+  <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\ADC_minus.c" value="SOURCE_C;CortexM0;;;;ADC_minus" />
+  <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\ADC_minus.h" value="HEADER;;;;;ADC_minus" />
+  <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\ADC_minus_aliases.h" value="HEADER;;;;;ADC_minus" />
+  <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\ADC_minus_PM.c" value="SOURCE_C;CortexM0;;;;ADC_minus" />
+  <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\Pin_ADC_Test.c" value="SOURCE_C;CortexM0;;;;Pin_ADC_Test" />
+  <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\Pin_ADC_Test.h" value="HEADER;;;;;Pin_ADC_Test" />
+  <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\Pin_ADC_Test_aliases.h" value="HEADER;;;;;Pin_ADC_Test" />
+  <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\Pin_ADC_Test_PM.c" value="SOURCE_C;CortexM0;;;;Pin_ADC_Test" />
+  <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\TestControlReg.h" value="HEADER;;;;;TestControlReg" />
+  <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\TestControlReg.c" value="SOURCE_C;CortexM0;;;;TestControlReg" />
+  <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\TestControlReg_PM.c" value="SOURCE_C;CortexM0;;;;TestControlReg" />
   <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\UART_SCBCLK.c" value="SOURCE_C;CortexM0;;;;UART_SCBCLK" />
   <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\UART_SCBCLK.h" value="HEADER;;;;;UART_SCBCLK" />
   <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\UART_tx.c" value="SOURCE_C;CortexM0;;;;UART_tx" />
@@ -43,6 +62,10 @@
   <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\UART_rx.h" value="HEADER;;;;;UART_rx" />
   <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\UART_rx_aliases.h" value="HEADER;;;;;UART_rx" />
   <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\UART_rx_PM.c" value="SOURCE_C;CortexM0;;;;UART_rx" />
+  <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\ADC_IRQ.c" value="SOURCE_C;CortexM0;;;;ADC_IRQ" />
+  <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\ADC_IRQ.h" value="HEADER;;;;;ADC_IRQ" />
+  <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\ADC_intClock.c" value="SOURCE_C;CortexM0;;;;ADC_intClock" />
+  <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\ADC_intClock.h" value="HEADER;;;;;ADC_intClock" />
   <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\cm0gcc.ld" value="LINKER_SCRIPT;;;b98f980c-3bd1-4fc7-a887-c56a20a46fdd;;cy_boot" />
   <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\Cm0RealView.scat" value="LINKER_SCRIPT;;;fdb8e1ae-f83a-46cf-9446-1d703716f38a;;cy_boot" />
   <file name="C:\Users\bnels\src\PSoC4_UART_base\UartComm_base\UartComm_base.cydsn\codegentemp\Cm0Start.c" value="SOURCE_C;CortexM0;;;;cy_boot" />

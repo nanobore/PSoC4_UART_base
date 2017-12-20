@@ -25,9 +25,9 @@
 #include <project.h>
 #include <string.h>
 #include <stdlib.h>
+#include <stdio.h>
 
 uint8 LED_state = 0u;
-
 
 /*******************************************************************************
 * Function Name: main
@@ -45,6 +45,9 @@ uint8 LED_state = 0u;
 *  None
 *
 *******************************************************************************/
+
+uint16 ADC_result = 0;
+
 int main()
 {
     setup();
@@ -55,8 +58,10 @@ int main()
     UART_UartPutString("************************************************\r\n");
     UART_UartPutString("\r\n");
 
+    
+    
     for (;;)
-    {
+    {   ADC_result = ADC_GetResult16(0);
         UART_GetInput();
     }
 }
@@ -66,6 +71,10 @@ int setup()
 {
     /* Start SCB (UART mode) operation */
     UART_Start();
+    
+    /* Start the ADC in free-running mode */
+    ADC_Start();
+    ADC_StartConvert();
     
     return 0;
 }
@@ -121,13 +130,24 @@ int UART_GetInput() {
    include support for parsing multiple args for "set value" operations */
 int parse_command(char* cmd, uint8 args)
 {
+    char buf[30];
+    
     if (strcmp(cmd, "LED on") == 0)
     {
         LED_ControlReg_Write(1u);
+        TestControlReg_Write(1u);
     }
     else if (strcmp(cmd, "LED off") == 0) 
     {
         LED_ControlReg_Write(0u);
+        TestControlReg_Write(0u);
+    }
+    else if (strcmp(cmd, "r") == 0)
+    {
+        sprintf(buf, "%d", ADC_result);
+        UART_UartPutString("ADC value:");
+        UART_UartPutString(buf);
+        UART_UartPutString("\r\n");
     }
     else
         UART_UartPutString("I don't understand that command!\r\n");      

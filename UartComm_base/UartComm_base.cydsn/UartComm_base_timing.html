@@ -539,7 +539,7 @@ function getElementsByClass(rootNode, elemName, className)
 <tr> <td class="prop"> Project :</td>
 <td class="proptext"> UartComm_base</td></tr>
 <tr> <td class="prop"> Build Time :</td>
-<td class="proptext"> 12/19/17 13:51:37</td></tr>
+<td class="proptext"> 12/19/17 16:26:44</td></tr>
 <tr> <td class="prop"> Device :</td>
 <td class="proptext"> CY8C4247AZI-M485</td></tr>
 <tr> <td class="prop"> Temperature :</td>
@@ -601,10 +601,26 @@ Clock Summary Section</span>
 </thead> 
 <tbody>
 <tr> 
+ <td class = "text_info">ADC_intClock(FFB)</td>
+ <td class = "text_info">ADC_intClock(FFB)</td>
+ <td class = "number">2.667&nbsp;MHz</td>
+ <td class = "number">2.667&nbsp;MHz</td>
+ <td class = "number"> N/A </td>
+ <td class = "text_info"> </td>
+</tr>
+<tr> 
  <td class = "text_info">CyHFCLK</td>
  <td class = "text_info">CyHFCLK</td>
  <td class = "number">24.000&nbsp;MHz</td>
  <td class = "number">24.000&nbsp;MHz</td>
+ <td class = "number"> N/A </td>
+ <td class = "text_info"> </td>
+</tr>
+<tr> 
+ <td class = "text_info">ADC_intClock</td>
+ <td class = "text_info">CyHFCLK</td>
+ <td class = "number">2.667&nbsp;MHz</td>
+ <td class = "number">2.667&nbsp;MHz</td>
  <td class = "number"> N/A </td>
  <td class = "text_info"> </td>
 </tr>
@@ -689,6 +705,75 @@ CyHFCLK</span>
 </tr>
 </thead> 
 <tbody>
+<tr> 
+ <td class = "text_info">\TestControlReg:Sync:ctrl_reg\/control_0</td>
+ <td class = "text_info">Pin_ADC_Test(0)_PAD</td>
+ <td class = "number">26.704</td>
+</tr>
+<tr class="sta_path">
+<td class="sta_path"  colspan="3">
+<table class="sta_path">
+ <thead> 
+<tr> 
+<th>Type</th>
+<th>Location</th>
+<th>Fanout</th>
+<th>Instance/Net</th>
+<th>Source</th>
+<th>Dest</th>
+<th>Delay (ns)</th>
+</tr>
+</thead> 
+<tbody>
+<tr> 
+ <td class = "text_info">controlcell2</td>
+ <td class = "text_info">U(0,0)</td>
+ <td class = "number">1</td>
+ <td class = "text_info">\TestControlReg:Sync:ctrl_reg\</td>
+ <td class = "text_info">\TestControlReg:Sync:ctrl_reg\/busclk</td>
+ <td class = "text_info">\TestControlReg:Sync:ctrl_reg\/control_0</td>
+ <td class = "number">2.580</td>
+</tr>
+<tr> 
+ <td class = "text_info">Route</td>
+ <td class = "text_info"></td>
+ <td class = "number">1</td>
+ <td class = "text_info">Net_149</td>
+ <td class = "text_info">\TestControlReg:Sync:ctrl_reg\/control_0</td>
+ <td class = "text_info">Pin_ADC_Test(0)/pin_input</td>
+ <td class = "number">5.674</td>
+</tr>
+<tr> 
+ <td class = "text_info">iocell7</td>
+ <td class = "text_info">P2[3]</td>
+ <td class = "number">1</td>
+ <td class = "text_info">Pin_ADC_Test(0)</td>
+ <td class = "text_info">Pin_ADC_Test(0)/pin_input</td>
+ <td class = "text_info">Pin_ADC_Test(0)/pad_out</td>
+ <td class = "number">18.450</td>
+</tr>
+<tr> 
+ <td class = "text_info">Route</td>
+ <td class = "text_info"></td>
+ <td class = "number">1</td>
+ <td class = "text_info">Pin_ADC_Test(0)_PAD</td>
+ <td class = "text_info">Pin_ADC_Test(0)/pad_out</td>
+ <td class = "text_info">Pin_ADC_Test(0)_PAD</td>
+ <td class = "number">0.000</td>
+</tr>
+<tr> 
+ <td class = "text_info">Clock</td>
+ <td class = "text_info"> </td>
+ <td class = "text_info"></td>
+ <td class = "text_info"></td>
+ <td class = "text_info"></td>
+ <td class = "text_info">Clock path delay</td>
+ <td class = "number">0.000</td>
+</tr>
+</tbody>
+ </table> 
+</td>
+</tr>
 <tr> 
  <td class = "text_info">\LED_ControlReg:Sync:ctrl_reg\/control_0</td>
  <td class = "text_info">Pin_LED(0)_PAD</td>
